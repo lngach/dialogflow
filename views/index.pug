@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .chat
+    .chat-title
+      h1 Fabio Ottaviani
+      h2 Supah
+      figure.avatar
+        img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg')
+    .messages
+      .messages-content
+    .message-box
+      textarea.message-input(type='text' placeholder='Type message...')
+      button.message-submit(type='submit') Send
+  .bg
